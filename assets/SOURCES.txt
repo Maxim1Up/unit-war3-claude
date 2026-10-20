@@ -1,0 +1,31 @@
+Unit War3 Claude: where the voices and portraits come from
+==========================================================
+
+The voices and portraits in this folder are original Warcraft III material
+(c) Blizzard Entertainment. They are not covered by the MIT license of the
+mod's code. They are redistributed here as packaged by the PeonPing project,
+for non-commercial use, under the terms each pack declares.
+
+Orc Peon / Орк-раб (assets/peon/)
+  Voices: https://github.com/PeonPing/og-packs/tree/main/peon_ru
+          pack peon_ru 1.1.0 by maksimfedin, declared license CC-BY-NC-4.0
+  Portrait: https://github.com/PeonPing/peon-ping/blob/main/docs/peon-portrait.gif
+          re-encoded from GIF to PNG, no visual edits.
+          PeonPing repository license: PeonPing-LICENSE.txt (MIT, Tony Sheng).
+
+Human Peasant / Крестьянин (assets/peasant/)
+  Voices and portrait: https://github.com/PeonPing/og-packs/tree/main/peasant_ru
+          pack peasant_ru 1.1.0 by maksimfedin, declared license CC-BY-NC-4.0
+          portrait.png is the pack's peasant.png, no visual edits.
+
+Undead Acolyte / Послушник (assets/acolyte/)
+  Voices and portrait: https://github.com/PeonPing/og-packs/tree/main/acolyte_ru
+          pack acolyte_ru 1.0.0 by maksimfedin, declared license CC-BY-NC-4.0
+          portrait.png is the pack's acolyte.png, no visual edits.
+
+Every WAV was checked against the SHA-256 listed in its pack's openpeon.json
+when it was copied (2026-10-19 and 2026-10-20). Only the clips the mod plays
+are included.
+
+If you hold rights to any of this material and want it removed, open an issue
+in the repository.

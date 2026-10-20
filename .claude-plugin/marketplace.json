@@ -1,0 +1,6 @@
+{
+  "name": "unit-mods",
+  "description": "Маркетплейс с модом Unit War3 Claude: работник Warcraft III в панели Claude Code.",
+  "owner": { "name": "Maxim1Up", "url": "https://github.com/Maxim1Up" },
+  "plugins": [{ "name": "unit-war3-claude", "source": "./" }]
+}

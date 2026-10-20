@@ -1,0 +1,8 @@
+# Written by Claude Code each time it loads the mod
+.claude-plugin/types/
+
+# OS and editor leftovers
+.DS_Store
+Thumbs.db
+*.log
+.mcpb-cache/
