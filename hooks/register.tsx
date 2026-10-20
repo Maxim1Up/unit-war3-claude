@@ -105,29 +105,29 @@ const WORKERS: Record<WorkerId, Worker> = {
     labels: {
       ready: 'Дела не ждут',
       working: 'Исполняю',
-      done: 'Постройка завершена',
+      done: 'Дело сделано',
       attention: 'Жду твоей воли',
       error: 'Нужна помощь',
       selected: 'Что прикажешь, хозяин?',
     },
     clips: {
-      ready: [clip('acolyte', 'AcolyteReady1', 'Дела не ждут.')],
+      ready: [clip('acolyte', 'AcolytePissed8', 'Ступив на путь тьмы, вы обретёте власть над собственной судьбой... страховку и оплаченный отпуск.')],
       working: [
         clip('acolyte', 'AcolyteYes1', 'Исполню с радостью.'),
         clip('acolyte', 'AcolyteYes2', 'Да, повелитель.'),
         clip('acolyte', 'AcolyteYes3', 'Да свершится предначертанное.'),
         clip('acolyte', 'AcolyteYes4', 'Ваша воля исполнится.'),
+        clip('acolyte', 'AcolyteWhat1', "Моя жизнь за Нер'зула!"),
+        clip('acolyte', 'AcolyteWhat4', 'Где прольётся моя кровь?'),
+        clip('acolyte', 'AcolyteYesAttack1', 'Да воцарится смерть!'),
       ],
-      done: [
-        clip('acolyte', 'AcolyteBuildingComplete1', 'Постройка завершена.'),
-        clip('acolyte', 'NecromancerResearchComplete1', 'Исследование завершено.'),
-      ],
+      done: [clip('acolyte', 'AcolytePissed1', 'Настал час тьмы.')],
       attention: [
         clip('acolyte', 'AcolyteWhat3', 'Чего желает мой повелитель?'),
         clip('acolyte', 'AcolyteWhat2', 'Я жажду служить.'),
         clip('acolyte', 'AcolyteWhat5', 'Склоняюсь перед вашей волей.'),
       ],
-      error: [clip('acolyte', 'AcolyteDeath1', 'Угх.')],
+      error: [clip('acolyte', 'NecromancerNoGold1', 'Нужно больше золота!')],
       selected: [
         clip('acolyte', 'AcolyteWhat1', "Моя жизнь за Нер'зула!"),
         clip('acolyte', 'AcolyteWhat4', 'Где прольётся моя кровь?'),
